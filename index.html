@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Special Offer - Claim Now</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f3f4f6;
+      text-align: center;
+    }
+    .container {
+      max-width: 480px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #555;
+      font-size: 15px;
+    }
+    button {
+      width: 100%;
+      padding: 15px;
+      background: #3b82f6;
+      border: none;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover {
+      background: #2563eb;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🔥 Limited Reward Offer</h1>
+    <p>Click the button below and complete a quick step to claim your reward. Available for a short time.</p>
+
+    <button onclick="redirectToOffer()">Claim Offer Now</button>
+
+    <p class="footer">Powered by CPAGrip • Offer conditions apply</p>
+  </div>
+
+  <script>
+    const OFFER_LINK = "https://YOUR_CPAGRIP_OFFER_LINK_HERE";
+    function redirectToOffer() {
+      window.location.href = OFFER_LINK;
+    }
+  </script>
+
+</body>
+</html>
